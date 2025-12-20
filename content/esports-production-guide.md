@@ -25,7 +25,7 @@ Esports production is the art and science of transforming competitive gaming int
 
 At its core, esports production includes:
 
-- **Broadcasting**: Live streaming gameplay to platforms like Twitch, YouTube, and custom destinations
+- **Broadcasting**: Live streaming gameplay to platforms like [Twitch](https://www.twitch.tv/), [YouTube Gaming](https://www.youtube.com/gaming), and custom destinations
 - **Observation**: Capturing the right moments and perspectives from within the game
 - **Graphics**: Overlays, lower thirds, scoreboards, and animated elements
 - **Audio**: Commentary, game sound, music, and crowd atmosphere
@@ -50,8 +50,8 @@ The technical foundation of any esports production includes:
 
 **Streaming Hardware**
 - Encoding PCs with powerful CPUs and GPUs
-- Capture cards for game feeds
-- Video switchers for multi-source production
+- Capture cards for game feeds (such as those from [Elgato](https://www.elgato.com/) or [Magewell](https://www.magewell.com/))
+- Video switchers for multi-source production ([Blackmagic Design](https://www.blackmagicdesign.com/) ATEM series is popular)
 - Audio mixing consoles
 - Monitoring systems
 
@@ -66,7 +66,7 @@ The technical foundation of any esports production includes:
 Professional observation is what separates amateur streams from broadcast-quality productions:
 
 - **In-game observers** who understand the game deeply and can anticipate action
-- **Spectator tools** specific to each esports title
+- **Spectator tools** specific to each esports title (see [Liquipedia](https://liquipedia.net/) for game-specific resources)
 - **POV management** for player perspective feeds
 - **Replay capture** for instant replay capability
 
@@ -123,7 +123,7 @@ Balances all audio sources and ensures consistent sound quality throughout the b
 ## Production Formats
 
 ### Online Tournaments
-Remote production has become increasingly sophisticated, allowing professional broadcasts without physical venues:
+Remote production has become increasingly sophisticated, allowing professional broadcasts without physical venues. Software like [OBS Studio](https://obsproject.com/) and [vMix](https://www.vmix.com/) enable:
 
 - Cloud-based production workflows
 - Remote commentary from home studios
@@ -215,4 +215,4 @@ Combining on-site and remote elements:
 
 Professional esports production requires careful planning, skilled personnel, and appropriate technology. Whether you're starting small or producing major events, the fundamentals remain the same: capture great content, present it professionally, and always prioritise the viewer experience.
 
-Ready to elevate your esports production? Contact us for a consultation on your next event.
+Ready to elevate your esports production? As a leading [esports production company](/) and [esports production agency](/), we're here to help. Contact us for a consultation on your next event.

@@ -70,9 +70,9 @@ The heart of any broadcast setup:
 Bringing game feeds into your production:
 
 **USB Capture Cards**
-- Elgato HD60 X (1080p60)
+- [Elgato](https://www.elgato.com/) HD60 X (1080p60)
 - AVerMedia Live Gamer Ultra (4K30)
-- Magewell USB Capture (Professional grade)
+- [Magewell](https://www.magewell.com/) USB Capture (Professional grade)
 
 **PCIe Capture Cards**
 - Elgato 4K60 Pro
@@ -94,14 +94,14 @@ Switching between sources:
 - Wirecast (Established solution)
 
 **Hardware Switchers**
-- Blackmagic ATEM Mini series
+- [Blackmagic Design](https://www.blackmagicdesign.com/) ATEM Mini series
 - Roland V-8HD
 - FOR-A HVS series (Professional)
 
 ### Audio Equipment
 
 **Microphones**
-- Shure SM7B (Broadcast standard)
+- [Shure](https://www.shure.com/) SM7B (Broadcast standard)
 - Electro-Voice RE20
 - Audio-Technica AT2020
 
@@ -131,7 +131,7 @@ Switching between sources:
 
 ## Software Configuration
 
-### OBS Studio Setup
+### [OBS Studio](https://obsproject.com/) Setup
 
 Free, open-source, and capable:
 
@@ -152,7 +152,7 @@ Profile: High
 - Move Transition
 - Source Record
 
-### vMix Configuration
+### [vMix](https://www.vmix.com/) Configuration
 
 Professional features for serious productions:
 
@@ -171,13 +171,13 @@ Professional features for serious productions:
 
 ### Streaming Platform Configuration
 
-**Twitch Settings**
+**[Twitch](https://www.twitch.tv/) Settings**
 - Server: Use nearest ingest
 - Bitrate: 6000 Kbps
 - Resolution: 1920x1080
 - FPS: 60
 
-**YouTube Settings**
+**[YouTube](https://www.youtube.com/gaming) Settings**
 - Server: Primary
 - Bitrate: 6000-9000 Kbps
 - Resolution: 1920x1080
@@ -301,4 +301,4 @@ Critical for professional productions:
 
 A professional esports streaming setup requires careful planning and quality equipment, but the investment pays dividends in broadcast quality and reliability. Start with the fundamentals, test thoroughly, and scale as your productions grow.
 
-Need help designing your streaming infrastructure? Contact us for expert consultation.
+Need help designing your streaming infrastructure? Our [esports production agency](/) provides expert consultation. As a full-service [esports production company](/), we handle everything from equipment selection to deployment.

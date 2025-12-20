@@ -108,6 +108,8 @@ Working with the broadcast team:
 
 ### FPS Titles (Valorant, CS2, Call of Duty)
 
+Resources like [Liquipedia](https://liquipedia.net/) provide valuable information on tournaments and game mechanics.
+
 **Key Techniques:**
 - X-ray vision to show player positions
 - Quick switching during multi-kill sequences
@@ -122,6 +124,8 @@ Working with the broadcast team:
 - Player perspective vs overview
 
 ### MOBAs (League of Legends, Dota 2)
+
+Major leagues like [LoL Esports](https://lolesports.com/) set the standard for professional MOBA observation.
 
 **Key Techniques:**
 - Lane phase coverage rotation
@@ -205,7 +209,7 @@ Working with the broadcast team:
 - Game's spectator client
 - Communication software (Discord, TeamSpeak)
 - Hotkey management tools
-- Recording software for replays
+- Recording software like [OBS Studio](https://obsproject.com/) for replays
 - Stream preview monitor
 
 ### Network Considerations
@@ -218,8 +222,8 @@ Working with the broadcast team:
 
 ### Getting Started
 1. Practice observation in ranked/casual matches
-2. Record and review your own observation
-3. Volunteer for community tournaments
+2. Record and review your own observation using software like [OBS Studio](https://obsproject.com/)
+3. Volunteer for community tournaments (find events on [Liquipedia](https://liquipedia.net/))
 4. Build a demo reel of best work
 5. Network with production companies
 
@@ -261,4 +265,4 @@ Great esports observers are invisible—viewers feel like they're watching the p
 
 Whether you're aspiring to become an observer or hiring observation services, understanding this role is essential to appreciating professional esports broadcasts.
 
-Contact us to discuss observer services for your tournament.
+Our [esports production company](/) provides professional observer services for tournaments of all sizes. Contact our [esports production agency](/) to discuss your requirements.

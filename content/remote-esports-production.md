@@ -133,25 +133,25 @@ Each remote crew member needs:
 
 ### Popular Solutions
 
-**Grabyo**
+**[Grabyo](https://about.grabyo.com/)**
 - Browser-based production
 - Multi-user collaboration
 - Social media integration
 - Clipping and highlights
 
-**Singular.live**
+**[Singular.live](https://singular.live/)**
 - Graphics and overlays
 - Remote graphics control
 - Data integration
 - Low-latency updates
 
-**StreamYard/Restream**
-- Multi-platform streaming
+**[Restream](https://restream.io/)**
+- Multi-platform streaming to [Twitch](https://www.twitch.tv/), [YouTube](https://www.youtube.com/gaming), and more
 - Basic production features
 - Guest management
 - Accessible for beginners
 
-**vMix Call**
+**[vMix](https://www.vmix.com/) Call**
 - Professional quality
 - vMix integration
 - Multiple guest support
@@ -308,4 +308,4 @@ For advanced requirements:
 
 Remote production has become an essential capability for esports production companies. The cost savings, flexibility, and access to global talent make it ideal for online tournaments while maintaining professional broadcast standards.
 
-Contact us to discuss remote production solutions for your esports event.
+As a leading [esports production agency](/), we specialise in remote production solutions. Contact our [esports production company](/) to discuss how we can deliver professional broadcasts for your event.

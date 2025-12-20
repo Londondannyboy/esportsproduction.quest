@@ -36,7 +36,7 @@ Esports production costs vary significantly based on:
 | Basic | £1,000 - £5,000 | Community tournaments, small online events |
 | Standard | £5,000 - £20,000 | Mid-size tournaments, weekly leagues |
 | Professional | £20,000 - £75,000 | Major online tournaments, small LAN events |
-| Premium | £75,000 - £200,000+ | Arena events, major championships |
+| Premium | £75,000 - £200,000+ | Arena events, major championships (like those seen on [LoL Esports](https://lolesports.com/)) |
 
 ## Cost Breakdown by Category
 
@@ -67,8 +67,8 @@ Equipment can be owned, rented, or provided as part of a production package.
 **Core Equipment Categories**
 
 - **Streaming PCs**: £500 - £2,000 per system
-- **Capture Hardware**: £200 - £1,000 per channel
-- **Video Switcher**: £500 - £5,000 (rental per event)
+- **Capture Hardware**: £200 - £1,000 per channel (brands like [Elgato](https://www.elgato.com/) and [Magewell](https://www.magewell.com/))
+- **Video Switcher**: £500 - £5,000 (rental per event) - [Blackmagic ATEM](https://www.blackmagicdesign.com/) series are popular
 - **Audio Console**: £300 - £2,000 (rental per event)
 - **Cameras**: £200 - £800 per day per camera
 - **Monitors**: £50 - £200 per day per display
@@ -132,7 +132,7 @@ Custom graphics packages range based on complexity:
 ## Cost-Saving Strategies
 
 ### Remote Production
-Producing online events remotely can reduce costs by 30-50% compared to on-site production:
+Producing online events remotely using tools like [OBS Studio](https://obsproject.com/) or [vMix](https://www.vmix.com/) can reduce costs by 30-50% compared to on-site production:
 
 - No travel or accommodation expenses
 - Distributed crew working from home
@@ -189,7 +189,7 @@ When requesting production quotes, provide:
 
 Production quality directly impacts:
 
-- **Viewership**: Better production attracts and retains viewers
+- **Viewership**: Better production attracts and retains viewers on platforms like [Twitch](https://www.twitch.tv/) and [YouTube Gaming](https://www.youtube.com/gaming)
 - **Sponsorship**: Professional broadcasts command higher sponsor rates
 - **Brand perception**: Quality reflects on your organisation
 - **Growth**: Successful events build audience for future events
@@ -200,4 +200,4 @@ Investing in professional production typically delivers returns through increase
 
 Esports production costs scale with your needs and ambitions. Whether you're running community tournaments on a tight budget or producing major championships, understanding these costs helps you plan effectively and allocate resources wisely.
 
-Contact us for a custom quote tailored to your specific event requirements.
+As a professional [esports production agency](/), we provide custom quotes tailored to your specific event requirements. Contact our [esports production company](/) to discuss your needs.

@@ -30,7 +30,7 @@ The foundation of any esports broadcast:
 
 **Stream Management**
 - Encoding and output configuration
-- Multi-platform streaming to Twitch, YouTube, and more
+- Multi-platform streaming to [Twitch](https://www.twitch.tv/), [YouTube Gaming](https://www.youtube.com/gaming), and more
 - Bitrate and quality optimisation
 - Stream health monitoring
 - Backup streaming pathways
@@ -55,9 +55,9 @@ Capturing in-game action professionally:
 
 **Game-Specific Expertise**
 - FPS titles: Valorant, CS2, Call of Duty
-- MOBAs: League of Legends, Dota 2
+- MOBAs: League of Legends (see [LoL Esports](https://lolesports.com/)), Dota 2
 - Battle Royales: Fortnite, PUBG, Apex
-- Fighting Games: Street Fighter, Tekken
+- Fighting Games: Street Fighter, Tekken (track events on [Liquipedia](https://liquipedia.net/))
 - Sports Titles: EA FC, Rocket League
 
 ### Graphics Services
@@ -164,14 +164,14 @@ Comprehensive production for live events
 
 ## Platform Services
 
-### Twitch Broadcasting
+### [Twitch](https://www.twitch.tv/) Broadcasting
 - Optimised encoding for Twitch
 - Chat integration
 - Extension support
 - Clip and highlight creation
 - VOD management
 
-### YouTube Gaming
+### [YouTube Gaming](https://www.youtube.com/gaming)
 - Live streaming setup
 - Super Chat integration
 - YouTube-specific features
@@ -253,7 +253,7 @@ Combining on-site and remote elements:
 ## Quality Assurance
 
 ### Technical Standards
-- 1080p60 minimum for main broadcasts
+- 1080p60 minimum for main broadcasts (using software like [OBS Studio](https://obsproject.com/) or [vMix](https://www.vmix.com/))
 - 4K capability for premium events
 - AAC audio at broadcast quality
 - Colour calibration and consistency
@@ -301,4 +301,4 @@ Quality broadcast services:
 
 Professional esports broadcast services transform competitive gaming into compelling entertainment. Whether you need basic streaming support or full arena production, the right broadcast partner makes your event shine.
 
-Contact us to discuss broadcast services for your upcoming esports event.
+As an experienced [esports production company](/), we deliver comprehensive broadcast services for events of all sizes. Contact our [esports production agency](/) to discuss your upcoming event.
