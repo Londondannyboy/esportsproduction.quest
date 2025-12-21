@@ -122,7 +122,7 @@ export default function Home() {
             playsInline
             className="w-full h-full object-cover"
           >
-            <source src="/hero-main.mp4" type="video/mp4" />
+            <source src="/hero-1.mp4" type="video/mp4" />
           </video>
           <div className="absolute inset-0 video-overlay" />
           <div className="absolute inset-0 scanlines opacity-20" />
@@ -451,15 +451,55 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Cross-Site Promotion */}
+      {/* Cross-Site Promotion with SEO Keywords */}
       <section className="py-16 bg-[#0a0a0f]">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-center mb-8 text-gray-300">
-            More from ESPORTS QUEST
+            Part of the ESPORTS QUEST Network
           </h2>
-          <div className="space-y-4">
-            <CrossLinkBanner variant="insurance" />
-            <CrossLinkBanner variant="jobs" />
+          <div className="grid md:grid-cols-3 gap-6">
+            <a
+              href="https://esportsevent.quest"
+              className="p-6 rounded-xl bg-gradient-to-br from-cyan-900/30 to-purple-900/30 border border-cyan-500/20 hover:border-cyan-500/50 transition-all group"
+            >
+              <h3 className="text-lg font-bold text-white mb-2 group-hover:text-cyan-400">
+                Esports Insurance
+              </h3>
+              <p className="text-gray-400 text-sm mb-3">
+                Protect your esports event with comprehensive coverage. Compare <a href="https://esportsevent.quest" className="text-cyan-400 hover:underline">esports event insurance</a> quotes from leading UK insurers.
+              </p>
+              <span className="text-cyan-400 text-sm font-medium">
+                Get Esports Insurance Quote →
+              </span>
+            </a>
+            <a
+              href="https://esportsjobs.quest"
+              className="p-6 rounded-xl bg-gradient-to-br from-green-900/30 to-cyan-900/30 border border-green-500/20 hover:border-green-500/50 transition-all group"
+            >
+              <h3 className="text-lg font-bold text-white mb-2 group-hover:text-green-400">
+                Esports Jobs
+              </h3>
+              <p className="text-gray-400 text-sm mb-3">
+                Looking for production crew or broadcast talent? Find the best <a href="https://esportsjobs.quest" className="text-green-400 hover:underline">esports jobs</a> and gaming industry careers.
+              </p>
+              <span className="text-green-400 text-sm font-medium">
+                Browse Esports Jobs →
+              </span>
+            </a>
+            <a
+              href="https://esportsnews.quest"
+              className="p-6 rounded-xl bg-gradient-to-br from-purple-900/30 to-pink-900/30 border border-purple-500/20 hover:border-purple-500/50 transition-all group"
+            >
+              <h3 className="text-lg font-bold text-white mb-2 group-hover:text-purple-400">
+                Esports News
+              </h3>
+              <p className="text-gray-400 text-sm mb-3">
+                Stay updated with the latest <a href="https://esportsnews.quest" className="text-purple-400 hover:underline">esports news</a>, industry insights, and tournament coverage from the UK scene.
+              </p>
+              <span className="text-purple-400 text-sm font-medium">
+                Read Esports News →
+              </span>
+            </a>
           </div>
         </div>
       </section>
