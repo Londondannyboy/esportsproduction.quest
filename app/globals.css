@@ -220,3 +220,34 @@ body {
   opacity: 0.3;
   animation: float 6s ease-in-out infinite;
 }
+
+/* =================================
+   ESPORTS QUEST - TAB NAVIGATION
+   ================================= */
+
+/* Active tab with neon glow */
+.quest-tab-active {
+  text-shadow: 0 0 8px rgba(0, 255, 242, 0.5);
+}
+
+/* Hide scrollbar for tab container on mobile */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Cross-link banner */
+.cross-link-banner {
+  background: linear-gradient(135deg, rgba(88, 28, 135, 0.2), rgba(8, 145, 178, 0.2));
+  border: 1px solid rgba(34, 211, 238, 0.2);
+  transition: all 0.3s ease;
+}
+
+.cross-link-banner:hover {
+  border-color: rgba(34, 211, 238, 0.5);
+  box-shadow: 0 0 20px rgba(0, 255, 242, 0.1);
+}

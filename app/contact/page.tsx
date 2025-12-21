@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { UnifiedHeader } from "../components/UnifiedHeader";
+import { UnifiedFooter } from "../components/UnifiedFooter";
 
 const projectTypes = [
   "Live Tournament",
@@ -62,31 +64,17 @@ export default function ContactPage() {
   return (
     <main className="min-h-screen bg-[#0a0a0f] text-white">
       {/* Navigation */}
-      <nav className="border-b border-cyan-500/20 backdrop-blur-md bg-black/30 sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex items-center justify-between">
-            <Link href="/" className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded bg-gradient-to-br from-cyan-400 to-purple-600 flex items-center justify-center font-bold text-xl">
-                EP
-              </div>
-              <span className="text-xl font-bold neon-text">
-                ESPORTS PRODUCTION
-              </span>
-            </Link>
-            <div className="hidden md:flex items-center gap-8">
-              <Link href="/#services" className="text-gray-300 hover:text-cyan-400 transition-colors">
-                Services
-              </Link>
-              <Link href="/#faq" className="text-gray-300 hover:text-cyan-400 transition-colors">
-                FAQ
-              </Link>
-              <Link href="/contact" className="bg-cyan-500 hover:bg-cyan-400 text-black font-bold py-2 px-6 rounded transition-all">
-                Get a Quote
-              </Link>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <div className="sticky top-0 z-50">
+        <UnifiedHeader
+          activeSite="production"
+          siteNavItems={[
+            { label: 'Services', href: '/#services' },
+            { label: 'FAQ', href: '/#faq' },
+          ]}
+          ctaLabel="Get a Quote"
+          ctaHref="/contact"
+        />
+      </div>
 
       {/* Hero Section with Video */}
       <section className="relative py-20">
@@ -281,24 +269,7 @@ export default function ContactPage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#050508] border-t border-gray-800 py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <div className="flex items-center justify-center gap-3 mb-6">
-              <div className="w-10 h-10 rounded bg-gradient-to-br from-cyan-400 to-purple-600 flex items-center justify-center font-bold text-xl">
-                EP
-              </div>
-              <span className="text-xl font-bold">ESPORTS PRODUCTION</span>
-            </div>
-            <p className="text-gray-500 text-sm mb-4">
-              Professional esports production services for tournaments and live events.
-            </p>
-            <p className="text-gray-600 text-sm">
-              &copy; 2025 Esports Production Agency. All rights reserved.
-            </p>
-          </div>
-        </div>
-      </footer>
+      <UnifiedFooter activeSite="production" />
     </main>
   );
 }

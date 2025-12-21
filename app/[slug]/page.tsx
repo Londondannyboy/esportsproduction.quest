@@ -2,6 +2,8 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getContentBySlug, getAllContentSlugs } from '@/lib/content';
+import { UnifiedHeader } from '../components/UnifiedHeader';
+import { UnifiedFooter } from '../components/UnifiedFooter';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -100,40 +102,19 @@ export default async function ContentPage({ params }: PageProps) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       {/* Navigation */}
-      <nav className="sticky top-0 z-50 border-b border-cyan-500/20 backdrop-blur-md bg-black/80">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <div className="flex items-center justify-between">
-            <Link href="/" className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded bg-gradient-to-br from-cyan-400 to-purple-600 flex items-center justify-center font-bold text-xl">
-                EP
-              </div>
-              <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-                ESPORTS PRODUCTION
-              </span>
-            </Link>
-            <div className="hidden md:flex items-center gap-8">
-              <Link href="/#services" className="text-gray-300 hover:text-cyan-400 transition-colors">
-                Services
-              </Link>
-              <Link href="/esports-production-guide" className="text-gray-300 hover:text-cyan-400 transition-colors">
-                Guide
-              </Link>
-              <Link href="/tournament-production-cost" className="text-gray-300 hover:text-cyan-400 transition-colors">
-                Pricing
-              </Link>
-              <Link href="/#faq" className="text-gray-300 hover:text-cyan-400 transition-colors">
-                FAQ
-              </Link>
-              <Link
-                href="/contact"
-                className="bg-cyan-500 hover:bg-cyan-400 text-black font-bold py-2 px-6 rounded transition-all"
-              >
-                Get a Quote
-              </Link>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <div className="sticky top-0 z-50">
+        <UnifiedHeader
+          activeSite="production"
+          siteNavItems={[
+            { label: 'Services', href: '/#services' },
+            { label: 'Guide', href: '/esports-production-guide' },
+            { label: 'Pricing', href: '/tournament-production-cost' },
+            { label: 'FAQ', href: '/#faq' },
+          ]}
+          ctaLabel="Get a Quote"
+          ctaHref="/contact"
+        />
+      </div>
 
       {/* Content */}
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -201,48 +182,31 @@ export default async function ContentPage({ params }: PageProps) {
       </article>
 
       {/* Footer */}
-      <footer className="bg-[#050508] border-t border-gray-800 py-12 mt-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-3 gap-8 mb-8">
-            <div>
-              <h4 className="font-bold text-white mb-4">Services</h4>
-              <ul className="space-y-2 text-gray-400 text-sm">
-                <li><Link href="/#services" className="hover:text-cyan-400">Live Event Production</Link></li>
-                <li><Link href="/#services" className="hover:text-cyan-400">Tournament Broadcasting</Link></li>
-                <li><Link href="/#services" className="hover:text-cyan-400">Observer Systems</Link></li>
-                <li><Link href="/#services" className="hover:text-cyan-400">Broadcast Graphics</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-bold text-white mb-4">Resources</h4>
-              <ul className="space-y-2 text-gray-400 text-sm">
-                <li><Link href="/esports-production-guide" className="hover:text-cyan-400">Production Guide</Link></li>
-                <li><Link href="/tournament-production-cost" className="hover:text-cyan-400">Pricing Guide</Link></li>
-                <li><Link href="/esports-broadcast-services" className="hover:text-cyan-400">Broadcast Services</Link></li>
-                <li><Link href="/esports-streaming-setup" className="hover:text-cyan-400">Streaming Setup</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-bold text-white mb-4">Contact</h4>
-              <ul className="space-y-2 text-gray-400 text-sm">
-                <li>hello@esportsproduction.quest</li>
-                <li>London, United Kingdom</li>
-              </ul>
-              <div className="mt-4">
-                <Link href="/contact" className="inline-block bg-cyan-500 hover:bg-cyan-400 text-black font-bold py-2 px-4 rounded text-sm transition-all">
-                  Get a Quote
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          <div className="border-t border-gray-800 pt-8">
-            <p className="text-center text-gray-500 text-sm">
-              &copy; 2025 Esports Production Agency. All rights reserved.
-            </p>
-          </div>
-        </div>
-      </footer>
+      <div className="mt-12">
+        <UnifiedFooter
+          activeSite="production"
+          siteSpecificSections={[
+            {
+              title: 'Services',
+              links: [
+                { label: 'Live Event Production', href: '/#services' },
+                { label: 'Tournament Broadcasting', href: '/#services' },
+                { label: 'Observer Systems', href: '/#services' },
+                { label: 'Broadcast Graphics', href: '/#services' },
+              ],
+            },
+            {
+              title: 'Resources',
+              links: [
+                { label: 'Production Guide', href: '/esports-production-guide' },
+                { label: 'Pricing Guide', href: '/tournament-production-cost' },
+                { label: 'Broadcast Services', href: '/esports-broadcast-services' },
+                { label: 'Streaming Setup', href: '/esports-streaming-setup' },
+              ],
+            },
+          ]}
+        />
+      </div>
     </main>
   );
 }
