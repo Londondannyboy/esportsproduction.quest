@@ -11,7 +11,7 @@ interface FooterSection {
 }
 
 interface UnifiedFooterProps {
-  activeSite: 'events' | 'production' | 'jobs';
+  activeSite: 'events' | 'production' | 'jobs' | 'news';
   siteSpecificSections?: FooterSection[];
   showDisclaimer?: boolean;
   disclaimerText?: string;
@@ -48,6 +48,16 @@ const CROSS_SITE_SECTIONS = [
       { label: 'Post a Job', href: 'https://esportsjobs.quest/contact' },
     ],
   },
+  {
+    title: 'News & Insights',
+    site: 'news' as const,
+    links: [
+      { label: 'Latest News', href: 'https://esportsnews.quest' },
+      { label: 'Industry Updates', href: 'https://esportsnews.quest/category/industry' },
+      { label: 'Event Coverage', href: 'https://esportsnews.quest/category/events' },
+      { label: 'Career Advice', href: 'https://esportsnews.quest/category/careers' },
+    ],
+  },
 ];
 
 const SITE_CONFIG = {
@@ -63,6 +73,10 @@ const SITE_CONFIG = {
     email: 'hello@esportsjobs.quest',
     copyright: 'Esports Jobs UK',
   },
+  news: {
+    email: 'hello@esportsnews.quest',
+    copyright: 'Esports News UK',
+  },
 };
 
 export function UnifiedFooter({
@@ -77,7 +91,7 @@ export function UnifiedFooter({
     <footer className="bg-[#050508] border-t border-gray-800 py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main footer grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-8 mb-12">
           {/* Brand column */}
           <div className="md:col-span-2 lg:col-span-2">
             <div className="flex items-center gap-3 mb-4">
@@ -87,12 +101,12 @@ export function UnifiedFooter({
               <div className="flex flex-col">
                 <span className="text-2xl font-bold">ESPORTS QUEST</span>
                 <span className="text-xs text-cyan-400 uppercase tracking-wider">
-                  Events | Production | Jobs
+                  Events | Production | Jobs | News
                 </span>
               </div>
             </div>
             <p className="text-gray-400 mb-4">
-              Your complete esports services network. Insurance, production, and career opportunities for the gaming industry.
+              Your complete esports services network. Insurance, production, careers, and news for the gaming industry.
             </p>
             <p className="text-gray-500 text-sm">
               Independent research and guidance for tournament organisers, venues, teams, and players.

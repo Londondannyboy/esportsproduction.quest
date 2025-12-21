@@ -1,6 +1,8 @@
 'use client';
 
+import { useState } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 interface NavItem {
   label: string;
@@ -8,7 +10,7 @@ interface NavItem {
 }
 
 interface UnifiedHeaderProps {
-  activeSite: 'events' | 'production' | 'jobs';
+  activeSite: 'events' | 'production' | 'jobs' | 'news';
   siteNavItems?: NavItem[];
   ctaLabel?: string;
   ctaHref?: string;
@@ -27,12 +29,17 @@ const SITE_CONFIG = {
     name: 'ESPORTS JOBS',
     logoText: 'EJ',
   },
+  news: {
+    name: 'ESPORTS NEWS',
+    logoText: 'EN',
+  },
 };
 
 const SITE_TABS = [
   { id: 'events' as const, label: 'Events', href: 'https://esportsevent.quest' },
   { id: 'production' as const, label: 'Production', href: 'https://esportsproduction.quest' },
   { id: 'jobs' as const, label: 'Jobs', href: 'https://esportsjobs.quest' },
+  { id: 'news' as const, label: 'News', href: 'https://esportsnews.quest' },
 ];
 
 export function UnifiedHeader({
@@ -41,12 +48,21 @@ export function UnifiedHeader({
   ctaLabel = 'Get Started',
   ctaHref = '/contact',
 }: UnifiedHeaderProps) {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
   const currentSite = SITE_CONFIG[activeSite];
+
+  // Check if a nav item is active based on current path
+  const isNavItemActive = (href: string) => {
+    if (href.startsWith('#')) return false;
+    if (href === '/') return pathname === '/';
+    return pathname.startsWith(href);
+  };
 
   return (
     <nav className="absolute top-0 left-0 right-0 z-50 border-b border-cyan-500/20 backdrop-blur-md bg-black/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Top row: Brand + CTA */}
+        {/* Top row: Brand + CTA + Mobile toggle */}
         <div className="flex items-center justify-between py-3">
           {/* Brand */}
           <a href="/" className="flex items-center gap-3">
@@ -67,10 +83,27 @@ export function UnifiedHeader({
           <div className="flex items-center gap-4">
             <Link
               href={ctaHref}
-              className="bg-cyan-500 hover:bg-cyan-400 text-black font-bold py-2 px-6 rounded btn-shine transition-all"
+              className="hidden sm:block bg-cyan-500 hover:bg-cyan-400 text-black font-bold py-2 px-6 rounded btn-shine transition-all"
             >
               {ctaLabel}
             </Link>
+
+            {/* Mobile menu button */}
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="md:hidden p-2 text-gray-300 hover:text-cyan-400 transition-colors"
+              aria-label="Toggle menu"
+            >
+              {mobileMenuOpen ? (
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              ) : (
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              )}
+            </button>
           </div>
         </div>
 
@@ -93,18 +126,51 @@ export function UnifiedHeader({
           ))}
         </div>
 
-        {/* Site-specific nav row */}
+        {/* Site-specific nav row - Desktop */}
         {siteNavItems.length > 0 && (
           <div className="hidden md:flex items-center gap-6 py-3 border-t border-gray-800/30">
             {siteNavItems.map((item, index) => (
               <Link
                 key={index}
                 href={item.href}
-                className="text-sm text-gray-300 hover:text-cyan-400 transition-colors"
+                className={`text-sm transition-colors ${
+                  isNavItemActive(item.href)
+                    ? 'text-cyan-400 font-medium'
+                    : 'text-gray-300 hover:text-cyan-400'
+                }`}
               >
                 {item.label}
               </Link>
             ))}
+          </div>
+        )}
+
+        {/* Mobile menu */}
+        {mobileMenuOpen && (
+          <div className="md:hidden border-t border-gray-800/50 py-4 space-y-2">
+            {siteNavItems.map((item, index) => (
+              <Link
+                key={index}
+                href={item.href}
+                onClick={() => setMobileMenuOpen(false)}
+                className={`block px-4 py-2 text-sm transition-colors rounded ${
+                  isNavItemActive(item.href)
+                    ? 'text-cyan-400 bg-cyan-500/10 font-medium'
+                    : 'text-gray-300 hover:text-cyan-400 hover:bg-gray-800/50'
+                }`}
+              >
+                {item.label}
+              </Link>
+            ))}
+            <div className="pt-2 px-4">
+              <Link
+                href={ctaHref}
+                onClick={() => setMobileMenuOpen(false)}
+                className="block w-full text-center bg-cyan-500 hover:bg-cyan-400 text-black font-bold py-2 px-6 rounded transition-all"
+              >
+                {ctaLabel}
+              </Link>
+            </div>
           </div>
         )}
       </div>

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { UnifiedHeader } from "./components/UnifiedHeader";
 import { UnifiedFooter } from "./components/UnifiedFooter";
+import { CrossLinkBanner } from "./components/CrossLinkBanner";
 
 const services = [
   {
@@ -446,6 +447,19 @@ export default function Home() {
                 <span>&rarr;</span>
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Cross-Site Promotion */}
+      <section className="py-16 bg-[#0a0a0f]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-center mb-8 text-gray-300">
+            More from ESPORTS QUEST
+          </h2>
+          <div className="space-y-4">
+            <CrossLinkBanner variant="insurance" />
+            <CrossLinkBanner variant="jobs" />
           </div>
         </div>
       </section>
