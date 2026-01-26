@@ -443,6 +443,9 @@ export default function Home() {
                   <span>Full technical crews for on-site and remote productions</span>
                 </li>
               </ul>
+              <p className="text-gray-400 text-sm mb-8">
+                Looking for a career in esports production? Our partners at <a href="https://mvp.actor" className="text-cyan-400 hover:underline">MVP</a> are the leading <a href="https://mvp.actor" className="text-cyan-400 hover:underline">esports recruitment agency</a> connecting talented broadcast professionals with top gaming organisations.
+              </p>
               <Link href="/contact" className="inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-500 text-white font-bold py-3 px-8 rounded-lg transition-all">
                 Work With Us
                 <span>&rarr;</span>
@@ -477,17 +480,17 @@ export default function Home() {
               </span>
             </a>
             <a
-              href="https://esportsjobs.quest"
+              href="https://mvp.actor"
               className="p-6 rounded-xl bg-gradient-to-br from-green-900/30 to-cyan-900/30 border border-green-500/20 hover:border-green-500/50 transition-all group"
             >
               <h3 className="text-lg font-bold text-white mb-2 group-hover:text-green-400">
-                Esports Jobs
+                Esports Recruitment
               </h3>
               <p className="text-gray-400 text-sm mb-3">
-                Looking for production crew or broadcast talent? Find the best <a href="https://esportsjobs.quest" className="text-green-400 hover:underline">esports jobs</a> and gaming industry careers.
+                Looking for production crew or broadcast talent? Our <a href="https://mvp.actor" className="text-green-400 hover:underline">esports recruitment agency</a> connects you with skilled gaming professionals.
               </p>
               <span className="text-green-400 text-sm font-medium">
-                Browse Esports Jobs →
+                Find Esports Talent →
               </span>
             </a>
             <a
