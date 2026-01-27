@@ -32,9 +32,9 @@ const CROSS_SITE_SECTIONS = [
     title: 'Production Services',
     site: 'production' as const,
     links: [
-      { label: 'Esports Production', href: 'https://esportsproduction.quest' },
-      { label: 'Esports Production Agency', href: 'https://esportsproduction.quest/#services' },
-      { label: 'Esports Production Company', href: 'https://esportsproduction.quest/esports-production-guide' },
+      { label: 'Esports Production Services', href: 'https://esportsproduction.quest' },
+      { label: 'Video Game Tournament Production', href: 'https://esportsproduction.quest/#services' },
+      { label: 'Esports Production Guide', href: 'https://esportsproduction.quest/esports-production-guide' },
       { label: 'Get a Quote', href: 'https://esportsproduction.quest/contact' },
     ],
   },
@@ -67,7 +67,7 @@ const SITE_CONFIG = {
   },
   production: {
     email: 'hello@esportsproduction.quest',
-    copyright: 'Esports Production UK',
+    copyright: 'eSports Production Services Quest',
   },
   jobs: {
     email: 'hello@esportsjobs.quest',

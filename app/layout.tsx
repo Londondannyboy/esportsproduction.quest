@@ -10,9 +10,9 @@ const jsonLd = {
     {
       "@type": "WebSite",
       "@id": "https://esportsproduction.quest/#website",
-      name: "Esports Production Agency",
+      name: "eSports Production Services Quest",
       url: "https://esportsproduction.quest",
-      description: "Professional esports production services for tournaments, broadcasts, and live events",
+      description: "Professional esports production services for competitive video game tournaments, broadcasts, and live events. eSports Production Services Quest is your complete guide to tournament production.",
       publisher: {
         "@id": "https://esportsproduction.quest/#organization"
       },
@@ -28,30 +28,32 @@ const jsonLd = {
     {
       "@type": "Organization",
       "@id": "https://esportsproduction.quest/#organization",
-      name: "Esports Production Agency",
+      name: "eSports Production Services Quest",
       url: "https://esportsproduction.quest",
-      description: "A professional esports production agency delivering world-class tournament broadcasts, live event production, and streaming services for competitive gaming events worldwide.",
+      description: "eSports Production Services Quest is a professional esports production services company delivering competitive video game tournament production, esports broadcast solutions, and e-sports productions for gaming events worldwide.",
       areaServed: {
         "@type": "Country",
         name: "United Kingdom",
       },
       knowsAbout: [
-        "Esports Production",
-        "Tournament Broadcasting",
+        "Esports Production Services",
+        "Video Game Tournament Production",
+        "Competitive Video Game Tournament Production",
+        "Esports Broadcast Solutions",
+        "E-Sports Productions",
+        "Esports Events Production",
         "Live Event Production",
-        "Esports Streaming",
-        "Gaming Event Management",
+        "Tournament Broadcasting",
         "Broadcast Graphics",
-        "Observer Systems",
-        "Esports Commentary"
+        "Observer Systems"
       ],
     },
     {
       "@type": "WebPage",
       "@id": "https://esportsproduction.quest/#webpage",
       url: "https://esportsproduction.quest",
-      name: "Esports Production Agency | Professional Tournament & Broadcast Services 2025",
-      description: "Professional esports production services for tournaments, live events, and broadcasts. Expert teams delivering world-class gaming content production.",
+      name: "Esports Production Services | Video Game Tournament & Broadcast Production Company",
+      description: "Professional esports production services for competitive video game tournaments and gaming events. Expert e-sports productions and esports broadcast solutions.",
       isPartOf: {
         "@id": "https://esportsproduction.quest/#website"
       },
@@ -147,35 +149,37 @@ const jsonLd = {
 };
 
 export const metadata: Metadata = {
-  title: "Esports Production Agency | Professional Tournament & Broadcast Services 2025",
+  title: "eSports Production Services Quest | Video Game Tournament & Broadcast Production UK",
   description:
-    "Professional esports production services for tournaments, live events, and broadcasts. Expert production teams delivering world-class gaming content. Get a quote for your next esports event.",
-  authors: [{ name: "Esports Production Agency" }],
+    "eSports Production Services Quest - Professional esports production services for video game tournaments and competitive gaming events. Full-service esports broadcast solutions, live event production, and e-sports productions worldwide.",
+  authors: [{ name: "eSports Production Services Quest" }],
   keywords: [
-    "esports production",
+    "esports production services",
     "esports production company",
-    "esports broadcast",
+    "video game tournament production",
+    "competitive video game tournament production",
+    "esports broadcast solutions",
+    "e-sports productions",
+    "esports events production",
     "tournament production",
-    "gaming event production",
-    "esports streaming",
+    "video gaming tournament event production",
+    "esports production companies",
     "live event production",
-    "esports agency",
-    "broadcast production",
     "gaming broadcast services",
   ],
   robots: "index, follow",
   openGraph: {
-    title: "Esports Production Agency | Professional Tournament & Broadcast Services 2025",
+    title: "eSports Production Services Quest | Video Game Tournament & Broadcast Production",
     description:
-      "Professional esports production services for tournaments, live events, and broadcasts. Expert production teams delivering world-class gaming content.",
-    siteName: "Esports Production Agency",
+      "eSports Production Services Quest - Professional esports production services for competitive video game tournaments. Expert e-sports productions, esports broadcast solutions, and live event production.",
+    siteName: "eSports Production Services Quest",
     locale: "en_GB",
     images: [
       {
         url: "https://esportsproduction.quest/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Esports Production Agency - Professional Tournament & Broadcast Services",
+        alt: "eSports Production Services Quest - Professional Video Game Tournament & Broadcast Production",
         type: "image/png",
       },
     ],
@@ -183,9 +187,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Esports Production Agency | Professional Esports Broadcasts",
+    title: "eSports Production Services Quest | Video Game Tournament Production",
     description:
-      "Professional esports production for tournaments and live events. Expert teams delivering world-class gaming broadcasts.",
+      "eSports Production Services Quest - Professional esports production services for competitive video game tournaments. Esports broadcast solutions and e-sports productions.",
     images: ["https://esportsproduction.quest/og-image.png"],
   },
   icons: {
@@ -210,7 +214,7 @@ export default function RootLayout({
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <meta name="apple-mobile-web-app-title" content="Esports Production Quest" />
+        <meta name="apple-mobile-web-app-title" content="eSports Production Services Quest" />
         <link rel="manifest" href="/site.webmanifest" />
         <script
           type="application/ld+json"
