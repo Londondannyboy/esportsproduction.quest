@@ -10,9 +10,9 @@ const jsonLd = {
     {
       "@type": "WebSite",
       "@id": "https://esportsproduction.quest/#website",
-      name: "eSports Production Services Quest",
+      name: "Esports Production Services Quest",
       url: "https://esportsproduction.quest",
-      description: "Professional esports production services for competitive video game tournaments, broadcasts, and live events. eSports Production Services Quest is your complete guide to tournament production.",
+      description: "Esports production services for competitive video game tournaments, broadcasts, and live events. Esports Production Services Quest is your complete guide to professional tournament production.",
       publisher: {
         "@id": "https://esportsproduction.quest/#organization"
       },
@@ -28,9 +28,9 @@ const jsonLd = {
     {
       "@type": "Organization",
       "@id": "https://esportsproduction.quest/#organization",
-      name: "eSports Production Services Quest",
+      name: "Esports Production Services Quest",
       url: "https://esportsproduction.quest",
-      description: "eSports Production Services Quest is a professional esports production services company delivering competitive video game tournament production, esports broadcast solutions, and e-sports productions for gaming events worldwide.",
+      description: "Esports Production Services Quest delivers professional esports production services for competitive video game tournament production, esports broadcast solutions, and gaming events worldwide.",
       areaServed: {
         "@type": "Country",
         name: "United Kingdom",
@@ -40,7 +40,7 @@ const jsonLd = {
         "Video Game Tournament Production",
         "Competitive Video Game Tournament Production",
         "Esports Broadcast Solutions",
-        "E-Sports Productions",
+        "Esports Productions",
         "Esports Events Production",
         "Live Event Production",
         "Tournament Broadcasting",
@@ -52,8 +52,8 @@ const jsonLd = {
       "@type": "WebPage",
       "@id": "https://esportsproduction.quest/#webpage",
       url: "https://esportsproduction.quest",
-      name: "Esports Production Services | Video Game Tournament & Broadcast Production Company",
-      description: "Professional esports production services for competitive video game tournaments and gaming events. Expert e-sports productions and esports broadcast solutions.",
+      name: "Esports Production Services | Video Game Tournament & Broadcast Production Company UK",
+      description: "Esports production services for competitive video game tournaments and gaming events. Expert esports productions and esports broadcast solutions.",
       isPartOf: {
         "@id": "https://esportsproduction.quest/#website"
       },
@@ -149,17 +149,17 @@ const jsonLd = {
 };
 
 export const metadata: Metadata = {
-  title: "eSports Production Services Quest | Video Game Tournament & Broadcast Production UK",
+  title: "Esports Production Services | Video Game Tournament & Broadcast Production UK | Quest",
   description:
-    "eSports Production Services Quest - Professional esports production services for video game tournaments and competitive gaming events. Full-service esports broadcast solutions, live event production, and e-sports productions worldwide.",
-  authors: [{ name: "eSports Production Services Quest" }],
+    "Esports production services for video game tournaments and competitive gaming events. Full-service esports broadcast solutions, live event production, and professional esports productions worldwide from Esports Production Services Quest.",
+  authors: [{ name: "Esports Production Services Quest" }],
   keywords: [
     "esports production services",
     "esports production company",
     "video game tournament production",
     "competitive video game tournament production",
     "esports broadcast solutions",
-    "e-sports productions",
+    "esports productions",
     "esports events production",
     "tournament production",
     "video gaming tournament event production",
@@ -169,17 +169,17 @@ export const metadata: Metadata = {
   ],
   robots: "index, follow",
   openGraph: {
-    title: "eSports Production Services Quest | Video Game Tournament & Broadcast Production",
+    title: "Esports Production Services | Video Game Tournament & Broadcast Production UK",
     description:
-      "eSports Production Services Quest - Professional esports production services for competitive video game tournaments. Expert e-sports productions, esports broadcast solutions, and live event production.",
-    siteName: "eSports Production Services Quest",
+      "Esports production services for competitive video game tournaments. Expert esports productions, esports broadcast solutions, and live event production from Esports Production Services Quest.",
+    siteName: "Esports Production Services Quest",
     locale: "en_GB",
     images: [
       {
         url: "https://esportsproduction.quest/og-image.png",
         width: 1200,
         height: 630,
-        alt: "eSports Production Services Quest - Professional Video Game Tournament & Broadcast Production",
+        alt: "Esports Production Services - Professional Video Game Tournament & Broadcast Production UK",
         type: "image/png",
       },
     ],
@@ -187,9 +187,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "eSports Production Services Quest | Video Game Tournament Production",
+    title: "Esports Production Services | Video Game Tournament Production UK",
     description:
-      "eSports Production Services Quest - Professional esports production services for competitive video game tournaments. Esports broadcast solutions and e-sports productions.",
+      "Esports production services for competitive video game tournaments. Esports broadcast solutions and professional esports productions from Esports Production Services Quest.",
     images: ["https://esportsproduction.quest/og-image.png"],
   },
   icons: {
@@ -214,7 +214,7 @@ export default function RootLayout({
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <meta name="apple-mobile-web-app-title" content="eSports Production Services Quest" />
+        <meta name="apple-mobile-web-app-title" content="Esports Production Services Quest" />
         <link rel="manifest" href="/site.webmanifest" />
         <script
           type="application/ld+json"

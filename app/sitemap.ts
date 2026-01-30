@@ -29,6 +29,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "tournament-production-cost",
     "esports-broadcast-services",
     "esports-streaming-setup",
+    "esports-production-companies",
+    "esports-live-production",
+    "video-game-tournament-production",
   ];
 
   const contentPages: MetadataRoute.Sitemap = contentSlugs.map((slug) => {

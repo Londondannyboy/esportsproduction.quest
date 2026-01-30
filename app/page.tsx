@@ -6,49 +6,67 @@ import { NewsSection } from "./components/NewsSection";
 // Table of Contents items for SEO and navigation
 const tocItems = [
   { id: "what-is-esports-production", label: "What Are Esports Production Services?" },
-  { id: "services", label: "Our Production Services" },
-  { id: "industry-growth", label: "Industry Growth & Trends" },
-  { id: "capabilities", label: "Production Capabilities" },
-  { id: "guides", label: "Production Guides & Resources" },
-  { id: "industry-partners", label: "Industry Partners & Standards" },
-  { id: "faq", label: "Frequently Asked Questions" },
+  { id: "services", label: "Esports Production Services Offerings" },
+  { id: "industry-growth", label: "Esports Production Services Industry Growth" },
+  { id: "capabilities", label: "Esports Production Services Capabilities" },
+  { id: "guides", label: "Esports Production Services Guides" },
+  { id: "industry-partners", label: "Esports Production Services Partners" },
+  { id: "faq", label: "Esports Production Services FAQ" },
 ];
 
 // Internal resource pages for linking
 const resourceGuides = [
   {
-    title: "Complete Esports Production Guide",
-    description: "Everything you need to know about professional esports production, from planning to execution. Learn the fundamentals of competitive video game tournament production.",
+    title: "Esports Production Services: Complete Guide",
+    description: "Everything you need to know about professional esports production services, from planning to execution. Learn the fundamentals of competitive video game tournament production.",
     href: "/esports-production-guide",
     icon: "📖",
   },
   {
-    title: "Esports Broadcast Services Explained",
-    description: "Deep dive into esports broadcast solutions including streaming, graphics, and multi-platform delivery for your e-sports productions.",
+    title: "Esports Production Companies Guide",
+    description: "Find and compare the top esports production companies for your tournament. Directory of esports production services providers in the UK and globally.",
+    href: "/esports-production-companies",
+    icon: "🏢",
+  },
+  {
+    title: "Esports Live Production Guide",
+    description: "Master esports live production techniques for real-time tournament broadcasting. Equipment, crews, and best practices for live esports production services.",
+    href: "/esports-live-production",
+    icon: "🔴",
+  },
+  {
+    title: "Video Game Tournament Production",
+    description: "Complete guide to video game tournament event production. From competitive video game tournament production basics to professional video gaming tournament event production.",
+    href: "/video-game-tournament-production",
+    icon: "🏆",
+  },
+  {
+    title: "Esports Production Services: Broadcast Solutions",
+    description: "Deep dive into esports production services broadcast solutions including streaming, graphics, and multi-platform delivery for your esports productions.",
     href: "/esports-broadcast-services",
     icon: "📡",
   },
   {
-    title: "Tournament Production Cost Guide",
+    title: "Esports Production Services: Pricing Guide",
     description: "Understand esports production services pricing, budgeting for video game tournament production, and cost-saving strategies.",
     href: "/tournament-production-cost",
     icon: "💰",
   },
   {
-    title: "Esports Streaming Setup Guide",
-    description: "Technical guide to streaming infrastructure, encoding, CDN delivery, and platform integration for professional esports events production.",
+    title: "Esports Production Services: Streaming Setup",
+    description: "Technical guide to esports production services streaming infrastructure, encoding, CDN delivery, and platform integration for professional esports events.",
     href: "/esports-streaming-setup",
     icon: "🎥",
   },
   {
-    title: "Remote Esports Production",
-    description: "How to deliver professional e-sports productions with distributed teams and cloud-based workflows for online video gaming tournament event production.",
+    title: "Esports Production Services: Remote Production",
+    description: "How to deliver professional esports production services with distributed teams and cloud-based workflows for online video gaming tournament event production.",
     href: "/remote-esports-production",
     icon: "☁️",
   },
   {
-    title: "Esports Observer Guide",
-    description: "Master the art of in-game observation for competitive video game tournament production. Essential skills for capturing the action.",
+    title: "Esports Production Services: Observer Guide",
+    description: "Master the art of in-game observation for esports production services. Essential skills for capturing the action in competitive video game tournaments.",
     href: "/esports-observer-guide",
     icon: "🎮",
   },
@@ -58,25 +76,25 @@ const resourceGuides = [
 const industryPartners = [
   {
     name: "ESL Gaming",
-    description: "The world's largest esports company, setting production standards for competitive video game tournaments globally.",
+    description: "The world's largest esports company, setting esports production services standards for competitive video game tournaments globally.",
     url: "https://www.eslgaming.com",
     type: "Tournament Organiser",
   },
   {
     name: "Riot Games Esports",
-    description: "Publishers of League of Legends and Valorant, pioneers in esports broadcast solutions and production quality.",
+    description: "Publishers of League of Legends and Valorant, pioneers in esports production services and broadcast quality.",
     url: "https://lolesports.com",
     type: "Game Publisher",
   },
   {
     name: "FACEIT",
-    description: "Leading competitive gaming platform providing infrastructure for e-sports productions and online tournaments.",
+    description: "Leading competitive gaming platform providing infrastructure for esports production services and online tournaments.",
     url: "https://www.faceit.com",
     type: "Platform",
   },
   {
     name: "Twitch",
-    description: "The dominant streaming platform for esports events production and live video game tournament broadcasts.",
+    description: "The dominant streaming platform for esports production services and live video game tournament broadcasts.",
     url: "https://www.twitch.tv",
     type: "Streaming Platform",
   },
@@ -88,7 +106,7 @@ const industryPartners = [
   },
   {
     name: "PGL Esports",
-    description: "Major esports production company delivering world-class competitive video game tournament production for CS2 and Dota 2.",
+    description: "Major esports production services company delivering world-class competitive video game tournament production for CS2 and Dota 2.",
     url: "https://www.pglesports.com",
     type: "Production Company",
   },
@@ -97,44 +115,44 @@ const industryPartners = [
 const services = [
   {
     icon: "🎬",
-    title: "Live Event Production",
+    title: "Esports Production Services: Live Events",
     description:
-      "End-to-end production for esports tournaments and gaming events. From small community competitions to major arena events, we deliver professional broadcasts that captivate audiences and elevate your brand.",
+      "End-to-end esports production services for tournaments and gaming events. From small community competitions to major arena events, we deliver professional broadcasts that captivate audiences and elevate your brand.",
     features: ["Full Crew", "Equipment Rental", "Show Direction"],
   },
   {
     icon: "📡",
-    title: "Tournament Broadcasting",
+    title: "Esports Production Services: Broadcasting",
     description:
-      "Professional live streaming and broadcast services for esports tournaments. Multi-platform streaming, custom graphics packages, and seamless viewer experiences across Twitch, YouTube, and custom platforms.",
+      "Professional esports production services for live streaming and tournament broadcasts. Multi-platform streaming, custom graphics packages, and seamless viewer experiences across Twitch, YouTube, and custom platforms.",
     features: ["Multi-Platform", "Custom Graphics", "Replay Systems"],
   },
   {
     icon: "🎮",
-    title: "Observer Systems",
+    title: "Esports Production Services: Observers",
     description:
-      "Expert in-game observers who capture every critical moment. Our observers have deep game knowledge and work seamlessly with directors to deliver compelling viewing experiences for any esports title.",
+      "Expert in-game observers as part of our esports production services. Our observers have deep game knowledge and work seamlessly with directors to deliver compelling viewing experiences for any esports title.",
     features: ["Game Expertise", "POV Management", "Spectator Tools"],
   },
   {
     icon: "🎨",
-    title: "Broadcast Graphics",
+    title: "Esports Production Services: Graphics",
     description:
-      "Custom graphics packages designed for your brand and tournament. Overlays, lower thirds, transitions, stingers, and animated elements that make your broadcast look professional and polished.",
+      "Custom broadcast graphics as part of our esports production services. Overlays, lower thirds, transitions, stingers, and animated elements that make your broadcast look professional and polished.",
     features: ["Custom Design", "Animation", "Brand Integration"],
   },
   {
     icon: "🎙️",
-    title: "Talent & Commentary",
+    title: "Esports Production Services: Talent",
     description:
-      "Access to experienced casters, analysts, and hosts who bring energy and expertise to your broadcast. We match the right talent to your game and audience for maximum engagement.",
+      "Access to experienced casters, analysts, and hosts through our esports production services. We match the right talent to your game and audience for maximum engagement.",
     features: ["Casters", "Analysts", "Hosts"],
   },
   {
     icon: "☁️",
-    title: "Remote Production",
+    title: "Esports Production Services: Remote",
     description:
-      "Cost-effective remote production solutions for online tournaments. Distributed teams, cloud-based workflows, and low-latency streaming that maintains broadcast quality without on-site requirements.",
+      "Cost-effective remote esports production services for online tournaments. Distributed teams, cloud-based workflows, and low-latency streaming that maintains broadcast quality without on-site requirements.",
     features: ["Cloud Workflows", "Distributed Teams", "Cost-Effective"],
   },
 ];
@@ -149,32 +167,32 @@ const stats = [
 const capabilities = [
   {
     title: "Multi-Camera Production",
-    description: "Professional camera systems including PTZ, cinema cameras, and player cams. Full switching and mixing capabilities for dynamic, engaging broadcasts.",
+    description: "Professional camera systems as part of our esports production services. PTZ, cinema cameras, and player cams with full switching and mixing capabilities for dynamic broadcasts.",
     icon: "📹",
   },
   {
     title: "Audio Excellence",
-    description: "Crystal-clear audio mixing for commentary, game audio, crowd atmosphere, and music. Professional audio engineers ensure perfect balance for every broadcast.",
+    description: "Crystal-clear audio mixing in our esports production services for commentary, game audio, crowd atmosphere, and music. Professional audio engineers ensure perfect balance.",
     icon: "🎧",
   },
   {
     title: "Real-Time Graphics",
-    description: "Live stats, player information, bracket updates, and sponsor integrations. Dynamic graphics that enhance the viewing experience and keep audiences informed.",
+    description: "Live stats, player information, and bracket updates as part of our esports production services. Dynamic graphics that enhance the viewing experience.",
     icon: "📊",
   },
   {
     title: "Instant Replays",
-    description: "Capture and replay critical moments in real-time. Multi-angle replays, slow-motion analysis, and highlight packages that add production value.",
+    description: "Capture and replay critical moments with our esports production services. Multi-angle replays, slow-motion analysis, and highlight packages.",
     icon: "⏪",
   },
   {
     title: "Venue Integration",
-    description: "LED walls, stage screens, lighting control, and crowd engagement systems. We integrate broadcast production with venue AV for immersive experiences.",
+    description: "LED walls, stage screens, and lighting control in our esports production services. We integrate broadcast production with venue AV for immersive experiences.",
     icon: "🏟️",
   },
   {
     title: "Content Delivery",
-    description: "Multi-platform streaming, VOD processing, and highlight creation. We ensure your content reaches audiences wherever they watch.",
+    description: "Multi-platform streaming and VOD processing with our esports production services. We ensure your content reaches audiences wherever they watch.",
     icon: "🌐",
   },
 ];
@@ -212,8 +230,8 @@ export default function Home() {
             loop
             playsInline
             className="w-full h-full object-cover"
-            title="Esports production services - professional video game tournament broadcast"
-            aria-label="Background video showing esports production services in action"
+            title="Esports Production Services - Professional Video Game Tournament Broadcast Production"
+            aria-label="Background video showing esports production services delivering professional video game tournament broadcasts"
           >
             <source src="/hero-1.mp4" type="video/mp4" />
           </video>
@@ -237,7 +255,7 @@ export default function Home() {
         {/* Hero Content */}
         <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
           <div className="inline-block mb-6 px-4 py-2 rounded-full border border-cyan-500/50 bg-cyan-500/10 text-cyan-400 text-sm font-medium">
-            Professional Video Game Tournament Production Company
+            Esports Production Services | Professional Video Game Tournament Production Company
           </div>
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black mb-6 leading-tight">
             <span className="block">ESPORTS PRODUCTION</span>
@@ -246,7 +264,7 @@ export default function Home() {
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Professional esports production services for competitive video game tournaments, live events, and broadcasts.
+            <strong>Esports production services</strong> for competitive video game tournaments, live events, and broadcasts.
             We deliver complete esports broadcast solutions with expert crews and cutting-edge technology.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -291,7 +309,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <nav aria-label="Table of contents" className="bg-gray-900/50 border border-gray-700 rounded-xl p-6">
             <h2 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
-              <span className="text-cyan-400">📋</span> On This Page: Esports Production Services Guide
+              <span className="text-cyan-400">📋</span> Esports Production Services Guide - What You&apos;ll Learn
             </h2>
             <ol className="grid md:grid-cols-2 gap-2">
               {tocItems.map((item, index) => (
@@ -315,39 +333,39 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-black mb-8 text-center">
-              What Are <span className="text-cyan-400">Esports Production Services</span>?
+              Esports Production Services: <span className="text-cyan-400">What Are They?</span>
             </h2>
             <div className="prose prose-lg prose-invert max-w-none">
               <p className="text-xl text-gray-300 mb-6">
                 Esports production services transform competitive video game tournaments into professional
-                broadcast entertainment. Our e-sports productions encompass everything from camera work and live streaming to
-                graphics packages, commentary, and show direction for gaming events of any scale.
+                broadcast entertainment. Our esports productions encompass everything from camera work and live streaming to
+                graphics packages, commentary, and show direction for gaming events of any scale. Leading organisations like <a href="https://www.eslgaming.com" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline">ESL Gaming</a> and <a href="https://lolesports.com" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline">Riot Games Esports</a> have set the standard for what professional esports production services can achieve.
               </p>
               <p className="text-lg text-gray-400 mb-6">
                 As the esports industry has grown into a multi-billion dollar phenomenon, professional video game tournament production
                 has become crucial to success. Today&apos;s audiences expect esports broadcast solutions that rival
                 traditional sports, with crisp visuals, expert commentary, instant replays, and
-                engaging graphics that bring the competitive action to life.
+                engaging graphics that bring the competitive action to life. Platforms like <a href="https://www.twitch.tv" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline">Twitch</a> and YouTube Gaming have made high-quality esports production services accessible to millions of viewers worldwide.
               </p>
               <p className="text-lg text-gray-400 mb-6">
                 Whether you&apos;re organising a local community tournament, a major arena event, or an online
-                league, our esports events production services elevate your event, engage your audience, and help
+                league, our esports production services elevate your event, engage your audience, and help
                 attract sponsors. Our team brings years of experience across every major title
-                to deliver competitive video game tournament production that exceeds expectations.
+                to deliver competitive video game tournament production that exceeds expectations. Tournament organisers like <a href="https://blastpremier.com" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline">BLAST Premier</a> and <a href="https://www.pglesports.com" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline">PGL Esports</a> demonstrate the level of quality that professional esports production services can deliver.
               </p>
               <p className="text-lg text-gray-400 mb-6">
                 The core elements of professional esports production services include: <strong>broadcast direction</strong> to
                 manage the overall show flow, <strong>in-game observation</strong> using specialised spectator tools,
                 <strong> real-time graphics</strong> for stats and information overlays, <strong>audio engineering</strong> for
                 commentary and game sound balance, and <strong>technical operations</strong> to ensure smooth streaming delivery.
-                Learn more about each aspect in our <Link href="/esports-production-guide" className="text-cyan-400 hover:underline">comprehensive production guide</Link>.
+                Learn more about each aspect in our <Link href="/esports-production-guide" className="text-cyan-400 hover:underline">comprehensive esports production services guide</Link>.
               </p>
               <p className="text-lg text-gray-400">
-                eSports Production Services Quest provides end-to-end video gaming tournament event production services across the UK and Europe.
-                Our esports production companies network includes specialists in every aspect of competitive gaming broadcasts,
+                Esports Production Services Quest provides end-to-end video gaming tournament event production services across the UK and Europe.
+                Our esports production services network includes specialists in every aspect of competitive gaming broadcasts,
                 from <Link href="/esports-observer-guide" className="text-cyan-400 hover:underline">game observers</Link> to
                 <Link href="/esports-broadcast-services" className="text-cyan-400 hover:underline"> broadcast engineers</Link> and
-                <Link href="/esports-streaming-setup" className="text-cyan-400 hover:underline"> streaming technicians</Link>.
+                <Link href="/esports-streaming-setup" className="text-cyan-400 hover:underline"> streaming technicians</Link>. We work alongside platforms like <a href="https://www.faceit.com" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline">FACEIT</a> to deliver exceptional esports production services for online tournaments.
               </p>
             </div>
           </div>
@@ -359,11 +377,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-black mb-4">
-              Esports Production <span className="text-cyan-400">Services</span>
+              Esports Production Services: <span className="text-cyan-400">Our Offerings</span>
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl mx-auto">
               Comprehensive esports production services and esports broadcast solutions tailored to your video game tournament, audience, and budget.
-              From planning to execution, we handle every aspect of your e-sports productions.
+              From planning to execution, we handle every aspect of your esports productions.
             </p>
           </div>
 
@@ -400,12 +418,12 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-4xl md:text-5xl font-black mb-6">
-                Video Game Tournament Production is{" "}
-                <span className="text-cyan-400 neon-text">Booming</span>
+                Esports Production Services:{" "}
+                <span className="text-cyan-400 neon-text">Industry Growth</span>
               </h2>
               <p className="text-xl text-gray-300 mb-6">
                 With over 540 million viewers worldwide and prize pools exceeding $40 million
-                for major tournaments, competitive video game tournament production has become one of the fastest-growing entertainment
+                for major tournaments, esports production services have become essential to one of the fastest-growing entertainment
                 sectors in the world.
               </p>
               <p className="text-lg text-gray-400 mb-6">
@@ -416,7 +434,7 @@ export default function Home() {
               </p>
               <p className="text-lg text-gray-400 mb-8">
                 From arena events with thousands of spectators to online tournaments reaching
-                millions of viewers, professional e-sports productions are the difference between a
+                millions of viewers, professional esports production services are the difference between a
                 forgettable event and an unforgettable experience.
               </p>
               <div className="flex flex-wrap gap-3">
@@ -439,8 +457,8 @@ export default function Home() {
                   playsInline
                   preload="metadata"
                   className="w-full h-full object-cover"
-                  title="Competitive video game tournament production - esports broadcast solutions"
-                  aria-label="Video showing competitive video game tournament production in progress"
+                  title="Esports Production Services - Competitive Video Game Tournament Broadcast Solutions"
+                  aria-label="Video showing esports production services delivering competitive video game tournament broadcasts"
                 >
                   <source src="/hero-1.mp4" type="video/mp4" />
                 </video>
@@ -455,10 +473,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-black mb-4">
-              Esports Production <span className="text-purple-400">Capabilities</span>
+              Esports Production Services: <span className="text-purple-400">Our Capabilities</span>
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-              Everything you need for world-class e-sports productions and esports broadcast solutions, delivered by experienced video game tournament production professionals.
+              Everything you need for world-class esports production services and esports broadcast solutions, delivered by experienced video game tournament production professionals.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -504,8 +522,8 @@ export default function Home() {
             playsInline
             preload="metadata"
             className="w-full h-full object-cover opacity-30"
-            title="E-sports productions - professional gaming event broadcast services"
-            aria-label="Video showcasing e-sports productions and esports events production"
+            title="Esports Production Services - Professional Gaming Event Broadcast Solutions"
+            aria-label="Video showcasing esports production services and professional esports events production"
           >
             <source src="/hero-3.mp4" type="video/mp4" />
           </video>
@@ -513,11 +531,11 @@ export default function Home() {
         </div>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <h2 className="text-4xl md:text-5xl font-black mb-6">
-            Ready for Professional Esports Production Services?
+            Esports Production Services: Ready to Get Started?
           </h2>
           <p className="text-xl text-gray-200 mb-8">
             Whether you&apos;re planning a competitive video game tournament or a major championship,
-            our team delivers professional esports broadcast solutions and e-sports productions.
+            our team delivers professional esports production services and esports broadcast solutions.
             Get in touch for a free consultation and quote.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -541,8 +559,8 @@ export default function Home() {
                   playsInline
                   preload="metadata"
                   className="w-full h-full object-cover"
-                  title="Video gaming tournament event production - esports production company team"
-                  aria-label="Video showing video gaming tournament event production by esports production professionals"
+                  title="Esports Production Services - Professional Video Gaming Tournament Event Production Team"
+                  aria-label="Video showing esports production services team delivering professional video gaming tournament event production"
                 >
                   <source src="/hero-5.mp4" type="video/mp4" />
                 </video>
@@ -550,16 +568,16 @@ export default function Home() {
             </div>
             <div>
               <h2 className="text-4xl md:text-5xl font-black mb-6">
-                Built by <span className="text-purple-400">Industry Veterans</span>
+                Esports Production Services: <span className="text-purple-400">Our Team</span>
               </h2>
               <p className="text-xl text-gray-300 mb-4">
-                We&apos;re a team of esports production professionals with experience
+                We&apos;re a team of esports production services professionals with experience
                 across the biggest tournaments and events in competitive gaming.
               </p>
               <p className="text-lg text-gray-400 mb-6">
-                Our crew has worked on major esports productions worldwide, giving us
+                Our crew has delivered esports production services for major events worldwide, giving us
                 the expertise to handle any event, any game, and any scale. We bring
-                that knowledge to every project, large or small.
+                that knowledge to every esports production services project, large or small.
               </p>
               <ul className="space-y-4 text-gray-400 mb-8">
                 <li className="flex items-start gap-3">
@@ -598,7 +616,7 @@ export default function Home() {
       <section className="py-16 bg-[#0a0a0f]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-center mb-8 text-gray-300">
-            eSports Production Services Quest - Part of the ESPORTS QUEST Network
+            Esports Production Services Quest - Part of the ESPORTS QUEST Network
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             <a
@@ -652,11 +670,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-black mb-4">
-              Esports Production <span className="text-cyan-400">Guides & Resources</span>
+              Esports Production Services: <span className="text-cyan-400">Guides & Resources</span>
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-              Comprehensive guides from eSports Production Services Quest to help you understand video game tournament production,
-              esports broadcast solutions, and e-sports productions best practices.
+              Comprehensive guides from Esports Production Services Quest to help you understand video game tournament production,
+              esports broadcast solutions, and esports production services best practices.
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -685,11 +703,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-black mb-4">
-              Industry <span className="text-purple-400">Partners & Standards</span>
+              Esports Production Services: <span className="text-purple-400">Industry Partners</span>
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-              eSports Production Services Quest works alongside the leading organisations in competitive gaming.
-              We follow industry standards set by these pioneering esports production companies and tournament organisers.
+              Esports Production Services Quest works alongside the leading organisations in competitive gaming.
+              We follow industry standards set by these pioneering esports production services companies and tournament organisers.
             </p>
           </div>
 
@@ -718,25 +736,25 @@ export default function Home() {
 
           <div className="bg-gradient-to-r from-purple-900/30 to-cyan-900/30 border border-purple-500/20 rounded-xl p-8">
             <h3 className="text-2xl font-bold text-white mb-4">
-              Why Industry Standards Matter for Esports Production Services
+              Esports Production Services: Why Industry Standards Matter
             </h3>
             <div className="prose prose-invert max-w-none">
               <p className="text-gray-300 mb-4">
-                Professional video game tournament production requires adherence to industry-wide standards established by leading
+                Professional esports production services require adherence to industry-wide standards established by leading
                 organisations like <a href="https://www.eslgaming.com" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:underline">ESL Gaming</a>,
                 <a href="https://lolesports.com" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:underline"> Riot Games Esports</a>, and
                 <a href="https://www.pglesports.com" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:underline"> PGL</a>.
-                These standards ensure consistent broadcast quality, viewer experience, and sponsor value across all e-sports productions.
+                These standards ensure consistent broadcast quality, viewer experience, and sponsor value across all esports production services engagements.
               </p>
               <p className="text-gray-400 mb-4">
-                At eSports Production Services Quest, our esports broadcast solutions are built on the foundation established by these industry leaders.
+                At Esports Production Services Quest, our esports broadcast solutions are built on the foundation established by these industry leaders.
                 We utilise the same production workflows, quality benchmarks, and technical specifications used in major tournaments broadcast on
                 <a href="https://www.twitch.tv" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:underline"> Twitch</a> and YouTube Gaming.
               </p>
               <p className="text-gray-400">
-                Whether you&apos;re organising a grassroots competition or a professional league, our competitive video game tournament production
-                services deliver the quality your audience expects from top-tier esports events. Learn more in our
-                <Link href="/esports-production-guide" className="text-cyan-400 hover:underline"> complete esports production guide</Link>.
+                Whether you&apos;re organising a grassroots competition or a professional league, our esports production services
+                deliver the quality your audience expects from top-tier esports events. Learn more in our
+                <Link href="/esports-production-guide" className="text-cyan-400 hover:underline"> complete esports production services guide</Link>.
               </p>
             </div>
           </div>
@@ -748,10 +766,10 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-black mb-4">
-              Esports Production Services <span className="text-purple-400">FAQ</span>
+              Esports Production Services: <span className="text-purple-400">FAQ</span>
             </h2>
             <p className="text-xl text-gray-400">
-              Common questions about esports production services, video game tournament production, and e-sports productions
+              Common questions about esports production services, video game tournament production, and esports broadcasts
             </p>
           </div>
           <div className="space-y-4">
