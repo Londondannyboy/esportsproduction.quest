@@ -16,7 +16,7 @@ hero_alt: "Professional esports streaming setup"
 
 # Esports Streaming Setup Guide
 
-Setting up a professional streaming infrastructure for esports tournaments requires careful planning and the right equipment. This guide covers everything you need to know about building a broadcast-ready streaming setup.
+Setting up a professional streaming infrastructure for esports tournaments requires careful planning and the right equipment. This guide from [Esports Production Services Quest](/) covers everything you need to know about building a broadcast-ready streaming setup. See our main [esports production services](/) page for the complete picture.
 
 ## Understanding Streaming Requirements
 

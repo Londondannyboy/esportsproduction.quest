@@ -16,7 +16,7 @@ hero_alt: "Esports observer at work"
 
 # Esports Observer Guide
 
-Esports observers are the camera operators of competitive gaming broadcasts. They control what viewers see, capturing the most exciting moments and crucial plays that tell the story of each match.
+Esports observers are the camera operators of competitive gaming broadcasts. They control what viewers see, capturing the most exciting moments and crucial plays that tell the story of each match. This guide from [Esports Production Services Quest](/) covers everything you need to know. See our complete [esports production services](/) on the homepage.
 
 ## What is an Esports Observer?
 

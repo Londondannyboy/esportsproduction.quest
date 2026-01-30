@@ -18,7 +18,7 @@ hero_alt: "Video game tournament production - professional competitive gaming br
 
 # Video Game Tournament Production: The Definitive Guide
 
-Video game tournament production transforms competitive gaming events into professional broadcast entertainment. Whether you're organising a local community competition or a major championship, this guide covers everything you need to know about video game tournament event production.
+Video game tournament production transforms competitive gaming events into professional broadcast entertainment. Whether you're organising a local community competition or a major championship, this guide from [Esports Production Services Quest](/) covers everything you need to know about video game tournament event production. For comprehensive information about all our offerings, visit our main [esports production services](/) page.
 
 ## What is Video Game Tournament Production?
 
