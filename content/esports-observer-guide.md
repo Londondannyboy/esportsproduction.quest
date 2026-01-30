@@ -7,7 +7,7 @@ keywords:
   - tournament observation
   - game observer guide
   - esports camera work
-author: "Esports Production Agency"
+author: "Esports Production Services Quest"
 date: "2025-01-01"
 last_updated: "2025-01-15"
 hero_image: "/images/observer-guide.jpg"

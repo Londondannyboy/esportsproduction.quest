@@ -54,12 +54,12 @@ export default async function ContentPage({ params }: PageProps) {
     description: page.meta.description,
     author: {
       "@type": "Organization",
-      name: "Esports Production Agency",
+      name: "Esports Production Services Quest",
       url: "https://esportsproduction.quest"
     },
     publisher: {
       "@type": "Organization",
-      name: "Esports Production Agency",
+      name: "Esports Production Services Quest",
       url: "https://esportsproduction.quest",
     },
     datePublished: page.meta.date,

@@ -67,6 +67,7 @@ const jsonLd = {
     },
     {
       "@type": "FAQPage",
+      "@id": "https://esportsproduction.quest/#faq",
       mainEntity: [
         {
           "@type": "Question",
@@ -144,6 +145,48 @@ const jsonLd = {
           item: "https://esportsproduction.quest"
         }
       ]
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://esportsproduction.quest/#video-hero",
+      name: "Esports Production Services - Professional Tournament Broadcast Showreel",
+      description: "See esports production services in action. Professional video game tournament production, live event broadcasting, and esports broadcast solutions from Esports Production Services Quest.",
+      thumbnailUrl: "https://esportsproduction.quest/og-image.png",
+      uploadDate: "2025-01-01",
+      contentUrl: "https://esportsproduction.quest/hero-1.mp4",
+      embedUrl: "https://esportsproduction.quest/hero-1.mp4",
+      duration: "PT30S",
+      publisher: {
+        "@id": "https://esportsproduction.quest/#organization"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://esportsproduction.quest/#video-production",
+      name: "Esports Production Services - Live Tournament Production",
+      description: "Esports production services delivering professional competitive video game tournament broadcasts. See our esports broadcast solutions and live event production capabilities.",
+      thumbnailUrl: "https://esportsproduction.quest/og-image.png",
+      uploadDate: "2025-01-01",
+      contentUrl: "https://esportsproduction.quest/hero-3.mp4",
+      embedUrl: "https://esportsproduction.quest/hero-3.mp4",
+      duration: "PT30S",
+      publisher: {
+        "@id": "https://esportsproduction.quest/#organization"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://esportsproduction.quest/#video-team",
+      name: "Esports Production Services - Professional Production Team",
+      description: "Meet the esports production services team. Experienced professionals delivering video gaming tournament event production and esports broadcast solutions.",
+      thumbnailUrl: "https://esportsproduction.quest/og-image.png",
+      uploadDate: "2025-01-01",
+      contentUrl: "https://esportsproduction.quest/hero-5.mp4",
+      embedUrl: "https://esportsproduction.quest/hero-5.mp4",
+      duration: "PT30S",
+      publisher: {
+        "@id": "https://esportsproduction.quest/#organization"
+      }
     }
   ],
 };

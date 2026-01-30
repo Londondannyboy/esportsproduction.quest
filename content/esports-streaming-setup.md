@@ -7,7 +7,7 @@ keywords:
   - broadcast hardware guide
   - esports stream configuration
   - gaming broadcast setup
-author: "Esports Production Agency"
+author: "Esports Production Services Quest"
 date: "2025-01-01"
 last_updated: "2025-01-15"
 hero_image: "/images/streaming-setup.jpg"

@@ -7,7 +7,7 @@ keywords:
   - broadcast production budget
   - esports event cost
   - production company rates
-author: "Esports Production Agency"
+author: "Esports Production Services Quest"
 date: "2025-01-01"
 last_updated: "2025-01-15"
 hero_image: "/images/production-cost-guide.jpg"
