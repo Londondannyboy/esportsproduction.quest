@@ -192,7 +192,7 @@ const jsonLd = {
 };
 
 export const metadata: Metadata = {
-  title: "Esports Production Services | Video Game Tournament & Broadcast Production UK | Quest",
+  title: "Esports Production Services | Tournament Production UK",
   description:
     "Esports production services for video game tournaments and competitive gaming events. Full-service esports broadcast solutions, live event production, and professional esports productions worldwide from Esports Production Services Quest.",
   authors: [{ name: "Esports Production Services Quest" }],

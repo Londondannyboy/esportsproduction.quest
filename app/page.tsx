@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { UnifiedHeader } from "./components/UnifiedHeader";
 import { UnifiedFooter } from "./components/UnifiedFooter";
 import { NewsSection } from "./components/NewsSection";
@@ -257,11 +258,8 @@ export default function Home() {
           <div className="inline-block mb-6 px-4 py-2 rounded-full border border-cyan-500/50 bg-cyan-500/10 text-cyan-400 text-sm font-medium">
             Esports Production Services | Professional Video Game Tournament Production Company
           </div>
-          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black mb-6 leading-tight">
-            <span className="block">ESPORTS PRODUCTION</span>
-            <span className="block bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-              SERVICES
-            </span>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black mb-6 leading-tight bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+            ESPORTS PRODUCTION SERVICES
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
             <strong>Esports production services</strong> for competitive video game tournaments, live events, and broadcasts.
@@ -335,6 +333,16 @@ export default function Home() {
             <h2 className="text-4xl md:text-5xl font-black mb-8 text-center">
               Esports Production Services: <span className="text-cyan-400">What Are They?</span>
             </h2>
+            <div className="mb-8 rounded-2xl overflow-hidden neon-border">
+              <Image
+                src="/esports-production-services.jpg"
+                alt="Esports production services - Professional video game tournament broadcast production with cameras, graphics, and live streaming equipment"
+                width={1200}
+                height={675}
+                className="w-full h-auto"
+                priority
+              />
+            </div>
             <div className="prose prose-lg prose-invert max-w-none">
               <p className="text-xl text-gray-300 mb-6">
                 Esports production services transform competitive video game tournaments into professional
